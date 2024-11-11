@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Объединение ячеек</title>
+    <style>
+        table 
+        {
+            border-collapse: collapse;
+        }
+        .block 
+        {
+            text-align: center;
+            font-size: 20px;
+            height: 70px;
+        }
+        .main {
+            width: 350px;
+            height: 60px;
+            font-size: 25px;
+            background-color: rgb(199, 199, 199);
+            color: black;
+            border-bottom: 1px solid white;
+        }
+        .free {
+            width: 250px;
+            font-size: 25px;
+            background-color: rgb(58, 225, 230);
+            border-bottom: 1px solid white;
+        }
+        .basic {
+            width: 250px;
+            font-size: 25px;
+            background-color: rgb(76, 204, 53);
+            border-bottom: 1px solid white;
+        }
+        .standart {
+            width: 250px;
+            font-size: 25px;
+            background-color: rgb(217, 225, 0);
+            border-bottom: 1px solid white;
+        }
+        .premium {
+            width: 250px;
+            font-size: 25px;
+            background-color: rgb(200, 20, 20);
+            border-bottom: 1px solid white;
+        }
+        .foot
+        {
+            width: 350px;
+            height: 60px;
+            font-size: 25px;
+            border-top: 1px solid white;
+            font-weight: bold;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <colgroup style=" background-color: rgb(199, 199, 199); ">
+            <col />
+            <col style="background-color: rgb(58, 225, 230);" />
+            <col style="background-color: rgb(76, 204, 53); " />
+            <col style = " background-color: rgb(217, 225, 0);"/>
+            <col style = "background-color: rgb(200, 20, 20);"/>
+        </colgroup>
+        <thead style="color:white;">
+            <tr>
+                <th class="main">Specification</th>
+                <th class="text free">Free</th>
+                <th class="text basic">Basic</th>
+                <th class="text standart">Standart</th>
+                <th class="text premium">Premium</th>
+        </thead>
+        <tfoot class="foot block">
+            <td style="color:black;">Price</td>
+            <td >$ 0.00</td>
+            <td >$ 9.99</td>
+            <td >$ 19.99</td>
+            <td >$29.99</td>
+        </tfoot>
+        <tbody style ="color:white;">
+            <tr class="block">
+                <td style="text-align:left; padding-left:25px; color:black">Random text</td>
+                <td >&#43;</td>
+                <td >&#43;</td>
+                <td >&#45;</td>
+                <td >&#43;</td>
+            </tr>
+            <tr class="block">
+                <td style="text-align:left; padding-left:25px;color:black" >Random text</td>
+                <td >&#45;</td>
+                <td >&#43;</td>
+                <td >&#45;</td>
+                <td >&#45;</td>
+            </tr>
+            <tr class="block">
+                <td style="text-align:left; padding-left:25px;color:black" >Random text</td>
+                <td >&#45;</td>
+                <td >&#45;</td>
+                <td >&#45;</td>
+                <td >&#43;</td>
+            </tr>
+            <tr class="block">
+                <td style="text-align:left; padding-left:25px;color:black" >Random text</td>
+                <td >&#43;</td>
+                <td >&#43;</td>
+                <td >&#43;</td>
+                <td >&#43;</td>
+            </tr>
+            <tr class="block">
+                <td style="text-align:left; padding-left:25px;color:black" >Random text</td>
+                <td >&#45;</td>
+                <td >&#45;</td>
+                <td >&#45;</td>
+                <td >&#45;</td>
+            </tr>
+            <tr class="block">
+                <td style="text-align:left; padding-left:25px;color:black" >Random text</td>
+                <td >&#45;</td>
+                <td >&#43;</td>
+                <td >&#45;</td>
+                <td >&#45;</td>
+            </tr>
+           
+        </tbody>
+    </table>
+</body>
+
+</html>
